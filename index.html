@@ -364,6 +364,15 @@
             <div class="portfolio-container">
               <!-- Portfolio Items -->
               <div class="portfolio-item" onclick="openModal('modal1')">
+                <img src="images/stock-price.jpg" alt="Stock Price Prediction">
+                <div class="overlay">
+                  <div class="portfolio-item-content">
+                    <h3>Stock Price Prediction Using LSTM with Attention</h3>
+                    <p>Machine Learning, Deep Learning, Time Series</p>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-item" onclick="openModal('modal2')">
                 <img src="images\movie_thumb.jpg" alt="Generative AI">
                 <div class="overlay">
                   <div class="portfolio-item-content">
@@ -373,7 +382,7 @@
                 </div>
               </div>
 
-              <div class="portfolio-item" onclick="openModal('modal2')">
+              <div class="portfolio-item" onclick="openModal('modal3')">
                 <img src="images\image_to_text.png" alt="Generative AI">
                 <div class="overlay">
                   <div class="portfolio-item-content">
@@ -383,7 +392,7 @@
                 </div>
               </div>
 
-              <div class="portfolio-item" onclick="openModal('modal3')">
+              <div class="portfolio-item" onclick="openModal('modal4')">
                 <img src="rb_66230.png" alt="Case Study">
                 <div class="overlay">
                   <div class="portfolio-item-content">
@@ -393,7 +402,7 @@
                 </div>
               </div>
           
-              <div class="portfolio-item" onclick="openModal('modal4')">
+              <div class="portfolio-item" onclick="openModal('modal5')">
                 <img src="images/Heart Attack.jpg" alt="Project">
                 <div class="overlay">
                   <div class="portfolio-item-content">
@@ -403,7 +412,7 @@
                 </div>
               </div>
           
-              <div class="portfolio-item" onclick="openModal('modal5')">
+              <div class="portfolio-item" onclick="openModal('modal6')">
                 <img src="images/IPL Logo.jpg" alt="Data Analysis">
                 <div class="overlay">
                   <div class="portfolio-item-content">
@@ -419,6 +428,24 @@
           
           <!-- Modal 1-->
           <div class="modal" id="modal1">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="text-dark modal-text">Stock Price Prediction Using LSTM with Attention</h5>
+                <span class="close" onclick="closeModal('modal1')">&times;</span>
+              </div>
+              <div class="modal-body">
+                <img src="images/stock-price.jpg" alt="Stock Price Prediction">
+                <p class="text-dark text-left modal-text" style="font-size: 15px;"><strong><b>Description:</b></strong><br>This project implements a deep learning model using Long Short-Term Memory (LSTM) with an Attention Mechanism to predict stock prices. The attention layer helps the model focus on relevant time steps, improving accuracy in forecasting stock movements.</p>
+                <a href="https://github.com/nikkvd/Stock-Price-Prediction-Using-LSTM-with-Attention" 
+                  target="_blank" 
+                  class="btn btn-primary rounded-pill">
+                  View Full Project </a>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="modal" id="modal2">
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="text-dark modal-text">Movie Recommender System</h5>
