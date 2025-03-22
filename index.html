@@ -364,6 +364,17 @@
             <div class="portfolio-container">
               <!-- Portfolio Items -->
               <div class="portfolio-item" onclick="openModal('modal1')">
+                <img src="images/COMPANY_REVIEW_EXTRACTION_AND_SENTIMENT_ANALYSIS.png" alt="Stock Price Prediction">
+                <div class="overlay">
+                  <div class="portfolio-item-content">
+                    <h3>Glassdoor Company Reviews Sentiment Analysis</h3>
+                    <p>Web Scraping, Sentiment Analysis, Generative AI</p>
+                  </div>
+                </div>
+              </div>
+              
+              
+              <div class="portfolio-item" onclick="openModal('modal2')">
                 <img src="images/stock-price.jpg" alt="Stock Price Prediction">
                 <div class="overlay">
                   <div class="portfolio-item-content">
@@ -372,7 +383,7 @@
                   </div>
                 </div>
               </div>
-              <div class="portfolio-item" onclick="openModal('modal2')">
+              <div class="portfolio-item" onclick="openModal('modal3')">
                 <img src="images\movie_thumb.jpg" alt="Generative AI">
                 <div class="overlay">
                   <div class="portfolio-item-content">
@@ -382,7 +393,7 @@
                 </div>
               </div>
 
-              <div class="portfolio-item" onclick="openModal('modal3')">
+              <div class="portfolio-item" onclick="openModal('modal4')">
                 <img src="images\image_to_text.png" alt="Generative AI">
                 <div class="overlay">
                   <div class="portfolio-item-content">
@@ -392,7 +403,7 @@
                 </div>
               </div>
 
-              <div class="portfolio-item" onclick="openModal('modal4')">
+              <div class="portfolio-item" onclick="openModal('modal5')">
                 <img src="rb_66230.png" alt="Case Study">
                 <div class="overlay">
                   <div class="portfolio-item-content">
@@ -402,7 +413,7 @@
                 </div>
               </div>
           
-              <div class="portfolio-item" onclick="openModal('modal5')">
+              <div class="portfolio-item" onclick="openModal('modal6')">
                 <img src="images/Heart Attack.jpg" alt="Project">
                 <div class="overlay">
                   <div class="portfolio-item-content">
@@ -412,7 +423,7 @@
                 </div>
               </div>
           
-              <div class="portfolio-item" onclick="openModal('modal6')">
+              <div class="portfolio-item" onclick="openModal('modal7')">
                 <img src="images/IPL Logo.jpg" alt="Data Analysis">
                 <div class="overlay">
                   <div class="portfolio-item-content">
@@ -430,8 +441,26 @@
           <div class="modal" id="modal1">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="text-dark modal-text">Stock Price Prediction Using LSTM with Attention</h5>
+                <h5 class="text-dark modal-text">Glassdoor Company Reviews Sentiment Analysis</h5>
                 <span class="close" onclick="closeModal('modal1')">&times;</span>
+              </div>
+              <div class="modal-body">
+                <video src="images/Project_video.mov" alt="Review Scraping">
+                <p class="text-dark text-left modal-text" style="font-size: 15px;"><strong><b>Description:</b></strong><br>This is a web application built with Streamlit that performs web scraping and sentiment analysis on Glassdoor reviews of a specified company. The app uses Selenium to extract reviews, VaderSentiment for sentiment analysis, and Google Gemini 1.5 Flash via LangChain to generate insights and recommendations.</p>
+                <a href="https://github.com/nikkvd/GlassDoor-Scrapping" 
+                  target="_blank" 
+                  class="btn btn-primary rounded-pill">
+                  View Full Project </a>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="modal" id="modal2">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="text-dark modal-text">Stock Price Prediction Using LSTM with Attention</h5>
+                <span class="close" onclick="closeModal('modal2')">&times;</span>
               </div>
               <div class="modal-body">
                 <img src="images/stock-price.jpg" alt="Stock Price Prediction">
@@ -445,11 +474,11 @@
           </div>
 
           
-          <div class="modal" id="modal2">
+          <div class="modal" id="modal3">
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="text-dark modal-text">Movie Recommender System</h5>
-                <span class="close" onclick="closeModal('modal1')">&times;</span>
+                <span class="close" onclick="closeModal('modal3')">&times;</span>
               </div>
               <div class="modal-body">
                 <img src="images\movie_thumb.jpg" alt="Generative AI">
@@ -464,11 +493,11 @@
           </div>
 
 
-          <div class="modal" id="modal2">
+          <div class="modal" id="modal4">
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="text-dark modal-text">Image-to-Text System using Gemini</h5>
-                <span class="close" onclick="closeModal('modal2')">&times;</span>
+                <span class="close" onclick="closeModal('modal4')">&times;</span>
               </div>
               <div class="modal-body">
                 <img src="images\image_to_text.png" alt="Generative AI">
@@ -485,11 +514,11 @@
           </div>
 
 
-          <div class="modal" id="modal3">
+          <div class="modal" id="modal5">
               <div class="modal-content">
                 <div class="modal-header">
                   <h5 class="text-dark modal-text">Prioritizing Development Needs: A Socio-Economic Analysis of Nations</h5>
-                  <span class="close" onclick="closeModal('modal3')">&times;</span>
+                  <span class="close" onclick="closeModal('modal5')">&times;</span>
                 </div>
                 <div class="modal-body">
                   <img src="rb_66230.png" alt="Case Study">
@@ -504,11 +533,11 @@
             </div>
 
           <!-- Model 2 -->
-          <div class="modal" id="modal4">
+          <div class="modal" id="modal6">
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="text-dark modal-text">Empowering Early Detection of Heart Attack Risks with Machine Learning</h5>
-                <span class="close" onclick="closeModal('modal4')">&times;</span>
+                <span class="close" onclick="closeModal('modal6')">&times;</span>
               </div>
               <div class="modal-body">
                 <img src="images/Heart Attack.jpg" alt="Heart Attack Prediction">
@@ -522,11 +551,11 @@
           </div>
           
           <!-- Modal 3 -->
-          <div class="modal" id="modal5">
+          <div class="modal" id="modal7">
             <div class="modal-content">
               <div class="modal-header ">
                 <h5 class="text-dark modal-text">In Depth Analysis of IPL Performance Trends 2021-2023</h5>
-                <span class="close" onclick="closeModal('modal5')">&times;</span>
+                <span class="close" onclick="closeModal('modal7')">&times;</span>
               </div>
               <div class="modal-body">
                 <img src="images/IPL Logo.jpg" alt="IPL Data Analysis">
